@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #003E78; 
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px; /* 字体调大 */
+    color: white; /* 字体颜色改为白色 */
+}
+
+button {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    font-size: 36px; /* 你可以调整字体大小 */
+    cursor: pointer;
+    background-color: #FFCB0B;
+    color: black; /* 字体颜色改为黑色 */
+    border: none;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.2s, background-color 0.2s;
+    text-align: center; /* 文字居中 */
+    line-height: 110px; /* 按钮内文字垂直居中 */
+}
+
+button:hover {
+    background-color: #cea40b; /* 鼠标悬浮动效颜色 */
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    width: 60px;
+    height: 60px;
+    background-color: #00274C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.toggle-button {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    padding: 5px 20px;
+    font-size: 50px;
+    background-color: #00742e;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #007860;
+}
+
+.toggle-button.active {
+    background-color: #cea40b;
+    color: #000000;
+    font-size: 50px;
+}
+
