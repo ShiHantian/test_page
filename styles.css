@@ -60,15 +60,15 @@ button:hover {
 }
 
 .number {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background-color: #00274C;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 42px;
 }
 
 .toggle-button {
@@ -92,8 +92,8 @@ button:hover {
 }
 
 .toggle-button.active {
-    background-color: #cea40b;
+    background-color: #FFCB0B;
     color: #000000;
-    font-size: 50px;
+    font-size: 60px;
 }
 
